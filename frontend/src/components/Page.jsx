@@ -29,6 +29,8 @@ export default () => {
         currencies={currencies}
         onCurrencyPairAdded={onCurrencyPairAdded}
       />
+      <hr></hr>
+
       <CurrencyPairList
         pairs={pairs}
         onCurrencyPairRemove={onCurrencyPairRemoved}
